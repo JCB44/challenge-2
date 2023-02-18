@@ -115,11 +115,25 @@ footer {
     text-align: center;
 }
 
-/*@media screen and (max-width: 648px) {
+@media screen and (max-width: 648px) {
     nav ul li
     {
       flex-direction: row;
       justify-content: center;
-      font-size: 150%;
+      font-size: 16px;
+      
     }
-  }*/
+    header{
+        width: 100%;
+    }
+    .aside-box h2 {
+    font-size: 28px;
+    }
+    .aside-box {
+    margin-left: -90px;
+    margin-right: -15px;
+    }
+    .v-line{
+    padding-left: -25px;
+    }
+  }
